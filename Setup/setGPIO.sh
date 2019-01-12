@@ -11,7 +11,7 @@ gpio mode 29 out
 
 echo "all relays should be on "
 echo "switching off each led in tern"
-gpio wirte 22 1
+gpio write 22 1
 sleep 0.5
 gpio write 26 1
 sleep 0.5

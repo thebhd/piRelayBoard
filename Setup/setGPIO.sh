@@ -29,12 +29,12 @@ echo "==========================================="
 echo ""
 echo "This window is now no longer needed."
 echo "Press t to test the relays or any other key to exit"
-#read -n 1 -s -r -p "This window is not now needed press any key to exit"
+
 read -n 1 result
-if [ $result -eq 't' ]
+if [[ $result = 't' ]]
 then 
         echo "Running relay test"
-        /home/pi/DaybaScripts/piRelayBoard/Setup/testRelays.
+        /home/pi/DaybaScripts/piRelayBoard/Setup/testRelays.sh
         read -n 1 -s -r -p "This window is now no longer needed press any key to exit"
          
 fi

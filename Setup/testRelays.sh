@@ -26,6 +26,8 @@ sleep 0.5
 gpio write 28 0
 sleep 0.5
 gpio write 29 0
+sleep 0.5
+
 echo "switching off each led in tern"
 gpio write 22 1
 sleep 0.5
@@ -43,8 +45,7 @@ gpio write 28 1
 sleep 0.5
 gpio write 29 1
 
-echo "all relays should be off now "
-echo ""
+echo "test complete"
 echo ""
 echo "=========== ! important ==================="
 echo "|     these are low active relays         |"
@@ -53,4 +54,4 @@ echo "|     0 or low to switch the realay on    |"
 echo "==========================================="
 echo ""
 echo ""
-read -n 1 -s -r -p "This window is not now needed press any key to exit"
+

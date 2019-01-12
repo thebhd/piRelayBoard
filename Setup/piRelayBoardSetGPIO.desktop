@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Name=piRelayBoard Set GPIO
+Icon=/home/pi/DaybaScripts/piRelayBoard/Setup/setGPIO.png
+Exec=/home/pi/DaybaScripts/piRelayBoard/Setup/setGPIO.sh 
+Terminal=true

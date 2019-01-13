@@ -12,5 +12,5 @@ cp  ~/DaybaScripts/piRelayBoard/Setup/piRelayBoardSetGPIO.desktop ~/Desktop/piRe
 
 #copy the examples to the desktop
 mkdir ~/Desktop/Scratch2Examples
-sudo cp ~/DaybaScripts/piRelayBoard/Setup/Scratch2Examples/* ~/Desktop/Scratch2Examples/
+cp ~/DaybaScripts/piRelayBoard/Setup/Scratch2Examples/* ~/Desktop/Scratch2Examples/
 
